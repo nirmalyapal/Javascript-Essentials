@@ -1,3 +1,5 @@
+//Fizz,buzz,fizzbuzz program without mod 
+
 n=100
 for(i=1;i<=n;i=i+1){
  a= i/15;
@@ -16,3 +18,5 @@ for(i=1;i<=n;i=i+1){
     console.log(i)
   }
 }
+
+// palindrom no. from a string

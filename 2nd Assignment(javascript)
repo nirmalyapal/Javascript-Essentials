@@ -1,0 +1,18 @@
+n=100
+for(i=1;i<=n;i=i+1){
+ a= i/15;
+ b= i/5;
+ c= i/3;
+  if (Number.isInteger(a)) {
+    console.log("fizzbuzz")
+  }
+  else if (Number.isInteger(b)) {
+    console.log("buzz")
+  }
+  else if (Number.isInteger(c)) {
+    console.log("fizz")
+  }
+  else{
+    console.log(i)
+  }
+}

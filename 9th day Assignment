@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
+</head>
+<body style="background-color:rgb(43, 226, 150);">
+    <div class="output">
+     
+    <h1 style="text-align:center;"><b>Name :</b><input type="text"></b>
+<p id="demo"><button onclick="myFunction()" > Say Hello </button>
+</p></div> 
+<marquee>Hey My name is Nirmalya Pal.</marquee>
+<script >
+    function myFunction() {
+        document.getElementById("demo").innerHTML = {marquee};
+      }
+    
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
